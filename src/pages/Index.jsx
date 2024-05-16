@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container, VStack, HStack, Input, Button, IconButton, Text, Box } from "@chakra-ui/react";
 import { FaTrash, FaEdit, FaCheck } from "react-icons/fa";
+import Hero from "../components/Hero";
 
 const Index = () => {
   const [todos, setTodos] = useState([]);
